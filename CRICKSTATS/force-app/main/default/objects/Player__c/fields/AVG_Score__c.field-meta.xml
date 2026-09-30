@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>AVG_Score__c</fullName>
+<externalId>false</externalId>
+<description>Average runs per match = Total Runs / Matches Played</description><label>AVG Score</label>
+<formula>IF(
+Matches_Played__c &gt; 0,
+Total_Runs__c / Matches_Played__c,
+0
+)</formula>
+<formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+<precision>18</precision>
+<scale>2</scale>
+<trackTrending>false</trackTrending>
+<type>Number</type>
+</CustomField>

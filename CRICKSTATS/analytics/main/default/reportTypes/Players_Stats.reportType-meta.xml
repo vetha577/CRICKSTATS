@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+<baseObject>Player__c</baseObject>
+<category>other</category>
+<deployed>true</deployed>
+<description>Players with rolled-up career statistics.</description>
+<label>Players Statistics</label>
+<sections>
+<columns><checkedByDefault>true</checkedByDefault><field>Name</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Player_Number__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Date_of_Birth__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Role__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Batting_Style__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Bowling_Style__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Nationality__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Team__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>AVG_Score__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Matches_Played__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Number_of_50s__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Number_of_100s__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_4s__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_6s__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_Runs__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_Overs__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_Wickets__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_Stumpings__c</field><table>Player__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Total_Catches__c</field><table>Player__c</table></columns>
+<masterLabel>Player</masterLabel>
+</sections>
+</ReportType>

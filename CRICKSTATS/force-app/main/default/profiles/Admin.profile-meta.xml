@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<applicationVisibilities><application>CRICKSTATS</application><default>false</default><visible>true</visible></applicationVisibilities>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Player__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Match_Performance__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<tabVisibilities><tab>CRICKSTATS_Home</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<tabVisibilities><tab>Player__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<tabVisibilities><tab>Match_Performance__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+<custom>false</custom>
+<userLicense>Salesforce</userLicense>
+</Profile>

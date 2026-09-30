@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Maiden_Overs_Valid</fullName>
+<active>true</active>
+<description>Maiden Overs must be 0 or more and cannot exceed the completed overs bowled.</description>
+<errorConditionFormula>OR(BLANKVALUE(Maiden_Overs__c, 0) &lt; 0, BLANKVALUE(Maiden_Overs__c, 0) &gt; FLOOR(BLANKVALUE(Overs_Bowled__c, 0)))</errorConditionFormula>
+<errorDisplayField>Maiden_Overs__c</errorDisplayField>
+<errorMessage>Maiden Overs must be 0 or more and cannot exceed the completed overs bowled.</errorMessage>
+</ValidationRule>

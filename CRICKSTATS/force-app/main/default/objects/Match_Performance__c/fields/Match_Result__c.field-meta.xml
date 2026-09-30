@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Match_Result__c</fullName>
+<externalId>false</externalId>
+<label>Match Result</label>
+<valueSet><restricted>true</restricted><valueSetDefinition><sorted>false</sorted><value><fullName>WON</fullName><default>false</default><label>WON</label></value><value><fullName>LOST</fullName><default>false</default><label>LOST</label></value><value><fullName>DRAW</fullName><default>false</default><label>DRAW</label></value></valueSetDefinition></valueSet><trackTrending>false</trackTrending>
+<type>Picklist</type>
+</CustomField>

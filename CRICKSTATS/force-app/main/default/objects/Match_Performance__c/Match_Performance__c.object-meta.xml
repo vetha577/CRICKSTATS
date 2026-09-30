@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<allowInChatterGroups>false</allowInChatterGroups>
+<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+<deploymentStatus>Deployed</deploymentStatus>
+<description>One player's performance in one match. Child of Player (master-detail).</description>
+<enableActivities>true</enableActivities>
+<enableBulkApi>true</enableBulkApi>
+<enableFeeds>false</enableFeeds>
+<enableHistory>true</enableHistory>
+<enableReports>true</enableReports>
+<enableSearch>true</enableSearch>
+<enableSharing>true</enableSharing>
+<enableStreamingApi>true</enableStreamingApi>
+<label>Match Performance</label>
+<nameField><label>Match Performance Name</label><trackHistory>false</trackHistory><type>Text</type></nameField>
+<pluralLabel>Match Performances</pluralLabel>
+<sharingModel>ControlledByParent</sharingModel>
+<visibility>Public</visibility>
+</CustomObject>

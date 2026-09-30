@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+<baseObject>Match_Performance__c</baseObject>
+<category>other</category>
+<deployed>true</deployed>
+<description>Match performances together with player details.</description>
+<join><outerJoin>false</outerJoin><relationship>Player__r</relationship></join>
+<label>Match Performances with Players</label>
+<sections>
+<columns><checkedByDefault>true</checkedByDefault><field>Name</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Player_of_the_Match__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Match_Result__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Runs_Scored__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Balls_Faced__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Fours__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Sixes__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Overs_Bowled__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Wickets_Taken__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Runs_Conceded__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Maiden_Overs__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Stumpings__c</field><table>Match_Performance__c</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Catches__c</field><table>Match_Performance__c</table></columns>
+<masterLabel>Match Performance</masterLabel>
+</sections>
+<sections>
+<columns><checkedByDefault>true</checkedByDefault><field>Name</field><table>Match_Performance__c.Player__r</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Team__c</field><table>Match_Performance__c.Player__r</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Role__c</field><table>Match_Performance__c.Player__r</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Batting_Style__c</field><table>Match_Performance__c.Player__r</table></columns>
+<columns><checkedByDefault>true</checkedByDefault><field>Bowling_Style__c</field><table>Match_Performance__c.Player__r</table></columns>
+<masterLabel>Player</masterLabel>
+</sections>
+</ReportType>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Total_Stumpings__c</fullName>
+<externalId>false</externalId>
+<label>Total Stumpings</label>
+<summarizedField>Match_Performance__c.Stumpings__c</summarizedField>
+<summaryForeignKey>Match_Performance__c.Player__c</summaryForeignKey>
+<summaryOperation>sum</summaryOperation>
+<trackTrending>false</trackTrending>
+<type>Summary</type>
+</CustomField>

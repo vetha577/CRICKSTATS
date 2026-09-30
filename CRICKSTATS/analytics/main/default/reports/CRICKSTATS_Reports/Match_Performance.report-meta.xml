@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+<columns><field>Match_Performance__c.Player__r$Name</field></columns>
+<columns><field>Match_Performance__c$Name</field></columns>
+<columns><field>Match_Performance__c$Match_Result__c</field></columns>
+<columns><field>Match_Performance__c$Player_of_the_Match__c</field></columns>
+<columns><field>Match_Performance__c$Runs_Scored__c</field></columns>
+<columns><field>Match_Performance__c$Balls_Faced__c</field></columns>
+<columns><field>Match_Performance__c$Fours__c</field></columns>
+<columns><field>Match_Performance__c$Sixes__c</field></columns>
+<columns><field>Match_Performance__c$Overs_Bowled__c</field></columns>
+<columns><field>Match_Performance__c$Wickets_Taken__c</field></columns>
+<columns><field>Match_Performance__c$Runs_Conceded__c</field></columns>
+<description>Match Performance</description>
+<format>Tabular</format>
+<name>Match Performance</name>
+<reportType>Performances_with_Players__c</reportType>
+<scope>organization</scope>
+<showDetails>true</showDetails>
+<showGrandTotal>true</showGrandTotal>
+<showSubTotals>true</showSubTotals>
+</Report>

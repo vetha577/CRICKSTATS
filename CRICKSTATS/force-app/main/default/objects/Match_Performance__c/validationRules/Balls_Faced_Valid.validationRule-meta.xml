@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Balls_Faced_Valid</fullName>
+<active>true</active>
+<description>Balls Faced must be 0 or more, and cannot be 0 when runs have been scored.</description>
+<errorConditionFormula>OR(BLANKVALUE(Balls_Faced__c, 0) &lt; 0, AND(BLANKVALUE(Runs_Scored__c, 0) &gt; 0, BLANKVALUE(Balls_Faced__c, 0) = 0))</errorConditionFormula>
+<errorDisplayField>Balls_Faced__c</errorDisplayField>
+<errorMessage>Balls Faced must be 0 or more, and cannot be 0 when runs have been scored.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Fielding_Not_Negative</fullName>
+<active>true</active>
+<description>Stumpings and Catches cannot be negative.</description>
+<errorConditionFormula>OR(BLANKVALUE(Stumpings__c, 0) &lt; 0, BLANKVALUE(Catches__c, 0) &lt; 0)</errorConditionFormula>
+<errorDisplayField>Catches__c</errorDisplayField>
+<errorMessage>Stumpings and Catches cannot be negative.</errorMessage>
+</ValidationRule>

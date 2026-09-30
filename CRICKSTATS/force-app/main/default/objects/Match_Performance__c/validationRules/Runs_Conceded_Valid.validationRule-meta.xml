@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Runs_Conceded_Valid</fullName>
+<active>true</active>
+<description>Runs Conceded cannot be negative.</description>
+<errorConditionFormula>BLANKVALUE(Runs_Conceded__c, 0) &lt; 0</errorConditionFormula>
+<errorDisplayField>Runs_Conceded__c</errorDisplayField>
+<errorMessage>Runs Conceded cannot be negative.</errorMessage>
+</ValidationRule>

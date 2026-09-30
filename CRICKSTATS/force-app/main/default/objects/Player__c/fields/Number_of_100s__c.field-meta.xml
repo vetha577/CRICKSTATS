@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Number_of_100s__c</fullName>
+<externalId>false</externalId>
+<description>Innings with 100+ runs</description><label>Number of 100's</label>
+<summaryFilterItems><field>Match_Performance__c.Runs_Scored__c</field><operation>greaterOrEqual</operation><value>100</value></summaryFilterItems>
+<summaryForeignKey>Match_Performance__c.Player__c</summaryForeignKey>
+<summaryOperation>count</summaryOperation>
+<trackTrending>false</trackTrending>
+<type>Summary</type>
+</CustomField>

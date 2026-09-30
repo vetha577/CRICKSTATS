@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<applicationVisibilities><application>CRICKSTATS</application><visible>true</visible></applicationVisibilities>
+<description>Managers - create, edit and manage player and match records.</description>
+<flowAccesses><enabled>true</enabled><flow>Player_Flow</flow></flowAccesses>
+<hasActivationRequired>false</hasActivationRequired>
+<label>CRICKSTATS Manager</label>
+<fieldPermissions><editable>true</editable><field>Player__c.Profile_Picture__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Date_of_Birth__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Role__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Batting_Style__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Bowling_Style__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Nationality__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Team__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Player__c.Player_Number__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.AVG_Score__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Matches_Played__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Number_of_50s__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Number_of_100s__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_4s__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_6s__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_Runs__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_Overs__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_Wickets__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_Stumpings__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>false</editable><field>Player__c.Total_Catches__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Recorded_By__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Player_of_the_Match__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Runs_Scored__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Balls_Faced__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Fours__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Sixes__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Overs_Bowled__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Wickets_Taken__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Runs_Conceded__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Maiden_Overs__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Stumpings__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Catches__c</field><readable>true</readable></fieldPermissions>
+<fieldPermissions><editable>true</editable><field>Match_Performance__c.Match_Result__c</field><readable>true</readable></fieldPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><object>Player__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>false</modifyAllRecords><object>Match_Performance__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+<tabSettings><tab>CRICKSTATS_Home</tab><visibility>Visible</visibility></tabSettings>
+<tabSettings><tab>Player__c</tab><visibility>Visible</visibility></tabSettings>
+<tabSettings><tab>Match_Performance__c</tab><visibility>Visible</visibility></tabSettings>
+<userPermissions><enabled>true</enabled><name>RunReports</name></userPermissions>
+<userPermissions><enabled>true</enabled><name>ExportReport</name></userPermissions>
+</PermissionSet>

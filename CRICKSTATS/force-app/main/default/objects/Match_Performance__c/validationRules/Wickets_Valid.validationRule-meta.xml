@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Wickets_Valid</fullName>
+<active>true</active>
+<description>Wickets Taken must be between 0 and 10, and requires Overs Bowled.</description>
+<errorConditionFormula>OR(BLANKVALUE(Wickets_Taken__c, 0) &lt; 0, BLANKVALUE(Wickets_Taken__c, 0) &gt; 10, AND(BLANKVALUE(Wickets_Taken__c, 0) &gt; 0, BLANKVALUE(Overs_Bowled__c, 0) = 0))</errorConditionFormula>
+<errorDisplayField>Wickets_Taken__c</errorDisplayField>
+<errorMessage>Wickets Taken must be between 0 and 10, and requires Overs Bowled.</errorMessage>
+</ValidationRule>

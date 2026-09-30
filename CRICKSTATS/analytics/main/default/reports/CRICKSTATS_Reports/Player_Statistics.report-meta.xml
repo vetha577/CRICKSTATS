@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+<columns><field>Player__c$Name</field></columns>
+<columns><field>Player__c$Team__c</field></columns>
+<columns><field>Player__c$Role__c</field></columns>
+<columns><field>Player__c$Batting_Style__c</field></columns>
+<columns><field>Player__c$Bowling_Style__c</field></columns>
+<columns><field>Player__c$Matches_Played__c</field></columns>
+<columns><field>Player__c$Total_Runs__c</field></columns>
+<columns><field>Player__c$AVG_Score__c</field></columns>
+<columns><field>Player__c$Number_of_50s__c</field></columns>
+<columns><field>Player__c$Number_of_100s__c</field></columns>
+<columns><field>Player__c$Total_4s__c</field></columns>
+<columns><field>Player__c$Total_6s__c</field></columns>
+<columns><field>Player__c$Total_Overs__c</field></columns>
+<columns><field>Player__c$Total_Wickets__c</field></columns>
+<columns><field>Player__c$Total_Stumpings__c</field></columns>
+<columns><field>Player__c$Total_Catches__c</field></columns>
+<description>Player Statistics</description>
+<format>Tabular</format>
+<name>Player Statistics</name>
+<reportType>Players_Stats__c</reportType>
+<scope>organization</scope>
+<showDetails>true</showDetails>
+<showGrandTotal>true</showGrandTotal>
+<showSubTotals>true</showSubTotals>
+</Report>
